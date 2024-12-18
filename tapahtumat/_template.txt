@@ -1,0 +1,4 @@
+<WRAP right round box 30% >
+    * **Aika**: 
+    * **Paikka**: 
+  </WRAP>
