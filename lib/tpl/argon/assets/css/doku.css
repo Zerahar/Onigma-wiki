@@ -25068,3 +25068,22 @@ textarea {
 #dokuwiki__pagetools, #ct-docs-nav > li:first-child, .secedit, .navbar-nav > .profile, .navbar-nav > .admin, .navbar-nav > .logout, .argon-doku-footer-fullmenu  {
   display:none;
 }
+.wrap_box ul {
+  list-style-type: none;
+  padding: 0 .3em;
+}
+.wrap_box li {
+  margin:0;
+}
+td, #dokuwiki__content table td, th,  #dokuwiki__content table th{
+  padding: .4em .7em!important;
+  text-transform: capitalize;
+}
+.wrap_box {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+@media only screen and (max-width: 600px) {
+  .wrap_box {
+    width:100%!important;
+  }
+}
